@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="CuboAsia.Front" size="600.000000 602.027039"/>
+        <ImageTarget name="CuboAsia.Top" size="600.000000 600.000000"/>
+        <ImageTarget name="CuboAsia.Right" size="600.000000 600.000000"/>
+        <ImageTarget name="CuboAsia.Back" size="600.000000 601.006714"/>
+        <ImageTarget name="CuboAsia.Left" size="600.000000 600.000000"/>
+        <ImageTarget name="CuboAsia.Bottom" size="600.000000 600.000000"/>
+        <MultiTarget name="CuboAsia">
+            <Part name="CuboAsia.Left" translation="-300.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="CuboAsia.Right" translation="300.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="CuboAsia.Front" translation="0 0 300.0" rotation="AD: 1 0 0 0"/>
+            <Part name="CuboAsia.Back" translation="0 0 -300.0" rotation="AD: 0 1 0 180"/>
+            <Part name="CuboAsia.Top" translation="0 300.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="CuboAsia.Bottom" translation="0 -300.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
